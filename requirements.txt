@@ -1,0 +1,15 @@
+# LiveStream Pro - Requirements
+# Cài đặt: pip install -r requirements.txt
+
+# Bắt buộc (core)
+yt-dlp>=2024.1.0          # Tải / lấy URL từ YouTube
+
+# Tùy chọn (Google Drive)
+gdown>=4.7.0              # Tải file từ Google Drive
+
+# Tùy chọn (Google Drive API chính thức - nếu muốn dùng OAuth)
+# google-api-python-client>=2.0.0
+# google-auth-oauthlib>=1.0.0
+
+# Tkinter đã có sẵn trong Python 3.x (không cần cài)
+# FFmpeg phải cài riêng: https://ffmpeg.org/download.html
